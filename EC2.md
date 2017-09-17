@@ -3,6 +3,14 @@
 
 #### Connecting via SSH
 
+Set key pair permissions
+
+```bash
+chmod 400 MyEC2KeyPair.pem
+```
+
+Connect
+
 ```bash
 ssh ec2-user@111.222.333.444 -i MyEC2KeyPair.pem
 ```
