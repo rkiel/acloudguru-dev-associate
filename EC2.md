@@ -25,6 +25,16 @@ vim index.html
 exit
 ```
 
+#### Sample `index.html`
+
+```html
+<html>
+  <body>
+    <h1>Hello Cloud Gurus<h1>
+  </body>
+</html>
+```
+
 #### Configure AWS CLI
 * Credentials stored in `~/.aws/credentials`
 * Configuration store in `~/.aws/config`
