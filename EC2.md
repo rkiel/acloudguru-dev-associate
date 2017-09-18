@@ -74,3 +74,19 @@ aws ec2 describe-instances
 ```bash
 aws ec2 describe-images
 ```
+
+#### Instance Metedata
+
+* [Instance Metadata and User Data](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html)
+
+To view all categories of instance metadata from within a running instance, use the following URI:
+
+```bash
+curl http://169.254.169.254/latest/meta-data/
+```
+
+To view a specific instance metadata, for example:
+
+```bash
+curl http://169.254.169.254/latest/meta-data/public-ipv4
+```
